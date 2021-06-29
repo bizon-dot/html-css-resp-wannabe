@@ -75,12 +75,7 @@ img {
 
 /* Media query */
 
-@media screen and (max-width: 420px){
-
-  #lezioni {
-    background-color: #fefae0;
-    text-align: left;
-  }
+@media screen and (max-width: 420px) {
 
   .row {
     width: 496px;
@@ -89,12 +84,18 @@ img {
     margin-top: 100px;
   }
 
-
+  #lezioni {
+    background-color: #fefae0;
+    text-align: left;
+  }
 
   #lezioni .row>.left,
-  #lezioni .row>.right {
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
     float: none;
     /* word-wrap: break-word; */
   }
-  
+
 }
