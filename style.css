@@ -77,16 +77,16 @@ img {
 
 @media screen and (max-width: 420px) {
 
-  .row {
-    width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+  body {
+    font-size: 12px;
   }
+
 
   #lezioni {
     background-color: #fefae0;
-    text-align: left;
+    text-align: center;
+    display: flex;
+
   }
 
   #lezioni .row>.left,
@@ -95,7 +95,20 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     float: none;
-    /* word-wrap: break-word; */
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
   }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    text-align: left;
+    width:50%;
+  }
+
+
+
+
 
 }
