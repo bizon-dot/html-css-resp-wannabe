@@ -82,7 +82,9 @@ img {
     
   }
 
-  #lezioni > div:nth-child(1) > h1:nth-child(1) {
+  #lezioni > div:nth-child(1) > h1:nth-child(1), 
+  #steps > div:nth-child(1) > h1:nth-child(1),
+  #why > div:nth-child(1) > h1:nth-child(1) {
     text-align: left;
   }
   }
