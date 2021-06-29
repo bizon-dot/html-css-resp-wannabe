@@ -79,7 +79,14 @@ img {
 
   #lezioni, #why {
     background-color: #fefae0;
+    
   }
+
+  #lezioni > div:nth-child(1) > h1:nth-child(1) {
+    text-align: left;
+  }
+  }
+
 
   #lezioni .row>.left,
   #lezioni .row>.right,
@@ -96,7 +103,10 @@ img {
     flex-direction: column;
     flex-flow: column wrap;
     align-self: center;
-  }
+  } 
+
+  /* /Fine Media query */
+
 
 
 
