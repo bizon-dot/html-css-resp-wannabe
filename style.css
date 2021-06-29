@@ -71,3 +71,30 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 420px){
+
+  #lezioni {
+    background-color: #fefae0;
+    text-align: left;
+  }
+
+  .row {
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    /* word-wrap: break-word; */
+  }
+  
+}
