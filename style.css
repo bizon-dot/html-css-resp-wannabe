@@ -91,7 +91,6 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    font-size: 12px;
     float: none;
     width: 33%;
     display: flex;
@@ -99,6 +98,8 @@ img {
     flex-flow: column wrap;
     align-self: center;
     padding: 50px;
+    word-wrap: break-word;
+
   }
 
   #lezioni>div:nth-child(1)>h1:nth-child(1),
